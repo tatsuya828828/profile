@@ -177,3 +177,11 @@ header {
 		height: auto;
 	}
 }
+
+@media screen and (max-width: 420px) {
+	/* ヘッダー */
+	header {
+		height: 8vh;
+		line-height: 8vh;
+	}
+}
