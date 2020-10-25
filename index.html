@@ -5,15 +5,16 @@
 		<meta charset="UTF-8">
 		<link href="profile.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+		<script src="jquery.min.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="profile.js"></script>
 	</head>
 	<body class="margin-bottom">
 		<header>
 			<h1 class="title">MyProfile</h1>
 		</header>
-
 		<!-- プロフィール欄 -->
-		<div class="profile">
+		<div class="profile move-left">
 			<image class="profile-image" src="profile.jpg"></image>
 			<table>
 				<tr>
@@ -44,7 +45,7 @@
 		<div class="main">
 			<!-- 習得スキル -->
 			<h2 class="text-center margin-bottom">習得スキル</h2>
-			<div class="content left">
+			<div class="content left move-right1">
 				<h4>設計</h4>
 				<table>
 					<tr>
@@ -56,7 +57,7 @@
 				</table>
 			</div>
 
-			<div class="content left">
+			<div class="content left move-right2">
 				<h4>プロジェクト管理</h4>
 				<table>
 					<tr>
@@ -68,7 +69,7 @@
 				</table>
 			</div>
 
-			<div class="content left">
+			<div class="content left move-right3">
 				<h4>言語</h4>
 				<table>
 					<tr>
@@ -81,7 +82,7 @@
 				</table>
 			</div>
 
-			<div class="content left">
+			<div class="content left move-right4">
 				<h4>フレームワーク</h4>
 				<table>
 					<tr>
@@ -92,7 +93,7 @@
 				</table>
 			</div>
 
-			<div class="content left">
+			<div class="content left move-right5">
 				<h4>インフラ</h4>
 				<table>
 					<tr>
@@ -102,7 +103,7 @@
 				</table>
 			</div>
 
-			<div class="content left">
+			<div class="content left move-right6">
 				<h4>外部API</h4>
 				<table>
 					<tr>
@@ -194,6 +195,8 @@
 					</tr>
 				</table>
 			</div>
+			<br>
+			<small>このページはHTML/CSS/JavaScript/jQuery/ScrollReveal.jsを使って制作しています。</small>
 		</div>
 	</body>
 </html>
