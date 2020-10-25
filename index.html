@@ -43,144 +43,157 @@
 		<!-- メインコンテンツ -->
 		<div class="main">
 			<!-- 習得スキル -->
-			<h2 class="text-center">習得スキル</h2>
+			<h2 class="text-center margin-bottom">習得スキル</h2>
+			<div class="content left">
+				<h4>設計</h4>
+				<table>
+					<tr>
+						<td>・画面設計</td>
+						<td>・機能一覧</td>
+						<td>・データベース設計(ER図)</td>
+						<td>・アプリケーション詳細設計</td>
+					</tr>
+				</table>
+			</div>
 
-			<h4>設計</h4>
-			<table class="margin-bottom left">
-				<tr>
-					<td>・画面設計</td>
-					<td>・機能一覧</td>
-					<td>・データベース設計(ER図)</td>
-					<td>・アプリケーション詳細設計</td>
-				</tr>
-			</table>
+			<div class="content left">
+				<h4>プロジェクト管理</h4>
+				<table>
+					<tr>
+						<td>・チームビルディング</td>
+						<td>・WBS管理</td>
+						<td>・KPT</td>
+						<td>・GitHub(チーム開発)</td>
+					</tr>
+				</table>
+			</div>
 
-			<h4>プロジェクト管理</h4>
-			<table class="margin-bottom left">
-				<tr>
-					<td>・チームビルディング</td>
-					<td>・WBS管理</td>
-					<td>・KPT</td>
-					<td>・GitHub(チーム開発)</td>
-				</tr>
-			</table>
+			<div class="content left">
+				<h4>言語</h4>
+				<table>
+					<tr>
+						<td>・HTML</td>
+						<td>・CSS</td>
+						<td>・JavaScript</td>
+						<td>・Ruby</td>
+						<td>・Java</td>
+					</tr>
+				</table>
+			</div>
 
-			<h4>言語</h4>
-			<table class="margin-bottom left">
-				<tr>
-					<td>・HTML</td>
-					<td>・CSS</td>
-					<td>・JavaScript</td>
-					<td>・Ruby</td>
-					<td>・Java</td>
-				</tr>
-			</table>
+			<div class="content left">
+				<h4>フレームワーク</h4>
+				<table>
+					<tr>
+						<td>・Ruby on Rails (Ruby)</td>
+						<td>・Spring Boot (Java)</td>
+						<td>・Android Studio (Java)</td>
+					</tr>
+				</table>
+			</div>
 
-			<h4>フレームワーク</h4>
-			<table class="margin-bottom left">
-				<tr>
-					<td>・Ruby on Rails (Ruby)</td>
-					<td>・Spring Boot (Java)</td>
-					<td>・Android Studio (Java)</td>
-				</tr>
-			</table>
+			<div class="content left">
+				<h4>インフラ</h4>
+				<table>
+					<tr>
+						<td>・AWS(EC2,RDS,ELB)</td>
+						<td>・Vagrant/VirtualBox</td>
+					</tr>
+				</table>
+			</div>
 
-			<h4>インフラ</h4>
-			<table class="margin-bottom left">
-				<tr>
-					<td>・AWS(EC2,RDS,ELB)</td>
-					<td>・Vagrant/VirtualBox</td>
-				</tr>
-			</table>
-
-			<h4>外部API</h4>
-			<table class="margin-bottom">
-				<tr>
-					<td>・OpenWeatherMap</td>
-					<td>・Googlemap</td>
-					<td>・Pay.jp</td>
-					<td>・geocoder</td>
-				</tr>
-			</table>
+			<div class="content left">
+				<h4>外部API</h4>
+				<table>
+					<tr>
+						<td>・OpenWeatherMap</td>
+						<td>・Googlemap</td>
+						<td>・Pay.jp</td>
+						<td>・geocoder</td>
+					</tr>
+				</table>
+			</div>
 
 			<!-- 制作物 -->
-			<h2 class="text-center">制作物</h2>
-			<table class="border margin-bottom">
-				<thead>
-					<th class="border-bottom">OurSpace</th>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<h4>内容・制作理由</h4>
-							<p>
-								世帯を超えた家族との思い出の共有をしたいという思いから制作しました。<br>
-								友人や家族との思い出を日記として残しておくことのできるサイトです。<br>
-								グループを作って友達とチャットや伝言板、日記の共有、
-								また、個人でのチャットも可能です。
-							</p>
-							<input type="button" class="button o-space"
-									onclick="location.href='https://github.com/tatsuya828828/OurSpace'" value="githubはこちら">
-							<input type="button" class="button o-space"
-									onclick="location.href='https://o-space.jp/'"
-									style="background-color: #40E0D0;"
-									value="サイトへはこちら">
-							<br><br>
-							<h4>使用言語</h4>
-							<p class="margin-bottom">
-								Ruby: 全体<br>
-								JavaScript:<br>
-								トップページのタイトル/ 登録時のID確認(インクリメンタルサーチ) / 日記(友達申請)の絞り込み時のフェードイン
-							</p>
+			<div>
+				<h2 class="text-center margin-bottom">制作物</h2>
+				<table class="border margin-bottom">
+					<thead>
+						<th class="border-bottom">OurSpace</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<h4>内容・制作理由</h4>
+								<p>
+									世帯を超えた家族との思い出の共有をしたいという思いから制作しました。<br>
+									友人や家族との思い出を日記として残しておくことのできるサイトです。<br>
+									グループを作って友達とチャットや伝言板、日記の共有、
+									また、個人でのチャットも可能です。
+								</p>
+								<input type="button" class="button o-space"
+										onclick="location.href='https://github.com/tatsuya828828/OurSpace'" value="githubはこちら">
+								<input type="button" class="button o-space"
+										onclick="location.href='https://o-space.jp/'"
+										style="background-color: #40E0D0;"
+										value="サイトへはこちら">
+								<br><br>
+								<h4>使用言語</h4>
+								<p class="margin-bottom">
+									Ruby: 全体<br>
+									JavaScript:<br>
+									トップページのタイトル/ 登録時のID確認(インクリメンタルサーチ) / 日記(友達申請)の絞り込み時のフェードイン
+								</p>
 
-							<h4>使用ライブラリ</h4>
-							<p>bootstrap / jquery-rails / pry-byebug / dotenv-rails / enum_help / rails-i18n
-							wysiwyg-rails / froala-editor-sdk / carrierwave / mini_magick / font-awesome-sass / fog-aws
-							</p>
-						</td>
+								<h4>使用ライブラリ</h4>
+								<p>bootstrap / jquery-rails / pry-byebug / dotenv-rails / enum_help / rails-i18n
+								wysiwyg-rails / froala-editor-sdk / carrierwave / mini_magick / font-awesome-sass / fog-aws
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="border margin-bottom">
+					<thead>
+						<th class="border-bottom">SampleApp</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<h4>内容・制作理由</h4>
+								<p>Javaの勉強をしている中で実際に動くものが作りたいと思い、JavaとSpringBootを用いて簡単なアプリケーションを制作しました。<br>
+								本の感想を投稿するアプリケーションです。<br>
+								CRUD操作やアクセス制限、jquery-ratyによる評価などを実装しています。(未デプロイ)
+								</p>
+								<input type="button" class="button SampleApp"
+										onclick="location.href='https://github.com/tatsuya828828/SampleApp'" value="githubはこちら">
+								<br><br>
+								<h4>使用言語</h4>
+								<p class="margin-bottom">
+									Java: 全体<br>
+									JavaScript: 評価の投稿、表示
+								</p>
+
+								<h4>使用ライブラリ</h4>
+								<p>Thymeleaf / SpringSecurity / hibernate-validator / jquery-raty / jQuery / BootStrap </p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h2 class="text-center">学習に用いた本</h2>
+				<table>
+					<tr class="td-width">
+						<td>・スッキリわかるJava入門</td>
+						<td>・スッキリわかるJava入門 実践編</td>
+						<td>・スッキリわかるSQL入門</td>
+						<td>・JavaScript超入門</td>
+						<td>・Spring解体新書</td>
+						<td>・1日で基本が身につくAndroid超入門</td>
 					</tr>
-				</tbody>
-			</table>
-
-			<table class="border margin-bottom">
-				<thead>
-					<th class="border-bottom">SampleApp</th>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<h4>内容・制作理由</h4>
-							<p>Javaの勉強をしている中で実際に動くものが作りたいと思い、JavaとSpringBootを用いて簡単なアプリケーションを制作しました。<br>
-							本の感想を投稿するアプリケーションです。<br>
-							CRUD操作やアクセス制限、jquery-ratyによる評価などを実装しています。(未デプロイ)
-							</p>
-							<input type="button" class="button SampleApp"
-									onclick="location.href='https://github.com/tatsuya828828/SampleApp'" value="githubはこちら">
-							<br><br>
-							<h4>使用言語</h4>
-							<p class="margin-bottom">
-								Java: 全体<br>
-								JavaScript: 評価の投稿、表示
-							</p>
-
-							<h4>使用ライブラリ</h4>
-							<p>Thymeleaf / SpringSecurity / hibernate-validator / jquery-raty / jQuery / BootStrap </p>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<h2 class="text-center">学習に用いた本</h2>
-			<table>
-				<tr class="td-width">
-					<td>・スッキリわかるJava入門</td>
-					<td>・スッキリわかるJava入門 実践編</td>
-					<td>・スッキリわかるSQL入門</td>
-					<td>・JavaScript超入門</td>
-					<td>・Spring解体新書</td>
-					<td>・1日で基本が身につくAndroid超入門</td>
-				</tr>
-			</table>
+				</table>
+			</div>
 		</div>
 	</body>
 </html>
